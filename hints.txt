@@ -1,0 +1,5 @@
+npm init
+npm install
+gulp icons
+gulp modernizr
+update css and js (save file)

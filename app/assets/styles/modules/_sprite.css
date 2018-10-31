@@ -1,0 +1,18 @@
+
+
+
+        .icon {
+            background-image: url('../../assets/images/sprites/sprite-36e437f4.svg');
+        }
+
+        .no-svg .icon {
+            background-image: url('../../assets/images/sprites/sprite-36e437f4.png');
+        }
+
+        
+
+    .icon--mail {
+        width: 66px; 
+        height: 50px;
+        background-position: 0 0;  
+    }
