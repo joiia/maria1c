@@ -2,17 +2,71 @@
 
 
         .icon {
-            background-image: url('../../assets/images/sprites/sprite-36e437f4.svg');
+            background-image: url('../../assets/images/sprites/sprite-6fc95db6.svg');
         }
 
         .no-svg .icon {
-            background-image: url('../../assets/images/sprites/sprite-36e437f4.png');
+            background-image: url('../../assets/images/sprites/sprite-6fc95db6.png');
         }
 
         
 
-    .icon--mail {
-        width: 66px; 
-        height: 50px;
+    .icon--1c {
+        width: 275.54px; 
+        height: 181.94px;
+        background-position: 0 89.386364360093%;  
+    }
+
+    .icon--1c--l {
+        width: 1370.17px; 
+        height: 561.4px;
         background-position: 0 0;  
+    }
+
+    .icon--arw {
+        width: 27.64px; 
+        height: 16.26px;
+        background-position: 27.673892329680804% 70.72845012220627%;  
+    }
+
+    .icon--check {
+        width: 30.22px; 
+        height: 30px;
+        background-position: 25.473231999284% 71.97435897435898%;  
+    }
+
+    .icon--ft-1 {
+        width: 66px; 
+        height: 57.5px;
+        background-position: 21.114176245210732% 74.6046511627907%;  
+    }
+
+    .icon--ft-2 {
+        width: 66px; 
+        height: 59.03px;
+        background-position: 21.114176245210732% 82.41341198716327%;  
+    }
+
+    .icon--ft-3 {
+        width: 47.56px; 
+        height: 66px;
+        background-position: 0 99.91129032258063%;  
+    }
+
+    .icon--ft-4 {
+        width: 66px; 
+        height: 62.1px;
+        background-position: 21.114176245210732% 90.64447118598743%;  
+    }
+
+    .icon--ft-5 {
+        width: 53.79px; 
+        height: 66px;
+        background-position: 3.61066192938104% 99.91129032258063%;  
+    }
+
+    .icon--ft-6 {
+        width: 66px; 
+        height: 65.94px;
+        background-position: 7.766283524904215% 99.90323361019271%;  
     }

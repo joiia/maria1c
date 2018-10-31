@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+
+    th, td {
+        padding: 25px 30px;
+        border: 1px solid $grey-l;
+    }
+
+    th, td:first-child {
+        color: #000;
+        background: $grey-ll;
+        font-weight: 500;
+    }
+
+}
+
+.table__3-col {
+    td {
+        width: 33.3%;
+    }
+}
+
+.table__4-col {
+    td {
+        width: 25%;
+    }
+}

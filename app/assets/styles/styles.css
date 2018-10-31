@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&subset=cyrillic');
+
 @import "normalize.css";
 
 @import "../../../node_modules/bootstrap/dist/css/bootstrap-reboot";
 @import "../../../node_modules/bootstrap/dist/css/bootstrap-grid";
 
 @import "base/_variables";
-@import "base/_global";
 @import "base/_mixins";
+
+@import "base/_global";
+@import "base/_classes";
+@import "base/_table";
+
+@import "modules/_sprite";
+
 @import "modules/_btn";
+@import "modules/_link";
+
+@import "modules/_header";
+@import "modules/_hero";
 @import "modules/_page-section";
-@import "modules/_headline";
-@import "modules/_section-title";
-/*@import "modules/_sprite";*/
-@import "modules/_site-footer";
-@import "modules/_site-header";
-@import "modules/_primary-nav";
-@import "modules/_reveal-item";
-@import "modules/_modal";
+@import "modules/_about";
+@import "modules/_services";
+@import "modules/_options";
+@import "modules/_features";
+@import "modules/_pricelist";
+@import "modules/_contact";

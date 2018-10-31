@@ -1,0 +1,21 @@
+.float-right {
+    float: right;
+} 
+
+.icon {
+    display: inline-block;
+}
+
+.trn {
+    opacity: 0;
+}
+
+.wide {
+    letter-spacing: .02em;
+    font-size: 1.05em;
+}
+
+.centered {
+    text-align: center;
+}
+

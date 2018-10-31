@@ -1,0 +1,14 @@
+.features {
+    padding-bottom: 60px;
+    
+    &__item {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    &__item-icon {
+        margin: 0 auto;
+        margin-bottom: 25px;
+        height: 64px;
+    }
+}

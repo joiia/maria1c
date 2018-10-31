@@ -1,0 +1,60 @@
+<svg id="Group_66" data-name="Group 66" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.563 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #282d33;
+      }
+
+      .cls-2 {
+        fill: #00c2d8;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_54" data-name="Group 54" transform="translate(5.75)">
+    <g id="Group_53" data-name="Group 53">
+      <path id="Path_38" data-name="Path 38" class="cls-1" d="M43.263,47h-2.5V14.875A12.417,12.417,0,0,0,28.325,2.5h-4.25A12.4,12.4,0,0,0,11.7,14.875V24.5H9.2V14.938A14.977,14.977,0,0,1,24.138,0h4.25A14.911,14.911,0,0,1,43.263,14.875Z" transform="translate(-9.2)"/>
+    </g>
+  </g>
+  <g id="Group_55" data-name="Group 55" transform="translate(0.625 22.75)">
+    <rect id="Rectangle_57" data-name="Rectangle 57" class="cls-2" width="41.813" height="38.75" transform="translate(1.25 1.187)"/>
+    <path id="Path_39" data-name="Path 39" class="cls-1" d="M45.313,77.65H1V36.4H45.313ZM3.5,75.15H42.813V38.9H3.5Z" transform="translate(-1 -36.4)"/>
+  </g>
+  <g id="Group_56" data-name="Group 56" transform="translate(17.688 32.875)">
+    <path id="Path_40" data-name="Path 40" class="cls-3" d="M37.95,58.375a3.875,3.875,0,1,0-5.875,3.312l-.875,9.5h5.75l-.875-9.5A3.912,3.912,0,0,0,37.95,58.375Z" transform="translate(-29.012 -53.312)"/>
+    <path id="Path_41" data-name="Path 41" class="cls-1" d="M37.613,71.725H29.175L30.112,61.6A5.087,5.087,0,0,1,28.3,57.725a5.125,5.125,0,1,1,10.25,0A4.991,4.991,0,0,1,36.737,61.6Zm-5.688-2.5h2.937l-.812-8.938.688-.375a2.566,2.566,0,0,0,1.25-2.25,2.625,2.625,0,0,0-5.25,0,2.707,2.707,0,0,0,1.25,2.25l.688.375Z" transform="translate(-28.3 -52.6)"/>
+  </g>
+  <g id="Group_65" data-name="Group 65" transform="translate(0 32.938)">
+    <g id="Group_60" data-name="Group 60">
+      <g id="Group_57" data-name="Group 57">
+        <path id="Path_42" data-name="Path 42" class="cls-3" d="M0,54.7H0Z" transform="translate(0 -53.45)"/>
+        <rect id="Rectangle_58" data-name="Rectangle 58" class="cls-1" width="8.125" height="2.5"/>
+      </g>
+      <g id="Group_58" data-name="Group 58" transform="translate(0 7.875)">
+        <path id="Path_43" data-name="Path 43" class="cls-3" d="M0,67.3H0Z" transform="translate(0 -66.05)"/>
+        <rect id="Rectangle_59" data-name="Rectangle 59" class="cls-1" width="8.125" height="2.5"/>
+      </g>
+      <g id="Group_59" data-name="Group 59" transform="translate(0 15.813)">
+        <path id="Path_44" data-name="Path 44" class="cls-3" d="M0,80H0Z" transform="translate(0 -78.75)"/>
+        <rect id="Rectangle_60" data-name="Rectangle 60" class="cls-1" width="8.125" height="2.5"/>
+      </g>
+    </g>
+    <g id="Group_64" data-name="Group 64" transform="translate(37.438)">
+      <g id="Group_61" data-name="Group 61">
+        <path id="Path_45" data-name="Path 45" class="cls-3" d="M59.9,54.7h0Z" transform="translate(-59.9 -53.45)"/>
+        <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-1" width="8.125" height="2.5"/>
+      </g>
+      <g id="Group_62" data-name="Group 62" transform="translate(0 7.875)">
+        <path id="Path_46" data-name="Path 46" class="cls-3" d="M59.9,67.3h0Z" transform="translate(-59.9 -66.05)"/>
+        <rect id="Rectangle_62" data-name="Rectangle 62" class="cls-1" width="8.125" height="2.5"/>
+      </g>
+      <g id="Group_63" data-name="Group 63" transform="translate(0 15.813)">
+        <path id="Path_47" data-name="Path 47" class="cls-3" d="M59.9,80h0Z" transform="translate(-59.9 -78.75)"/>
+        <rect id="Rectangle_63" data-name="Rectangle 63" class="cls-1" width="8.125" height="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

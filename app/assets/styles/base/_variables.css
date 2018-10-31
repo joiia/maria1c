@@ -1,1 +1,15 @@
-$grey: #4b4b4b;
+$grey: #6e747b;
+$grey-l: #e6e8f3;
+$grey-ll: #f6f7f8;
+$blue: #229efc;
+$aqua: #00c2d8;
+$blue-l: #3ea9fa;
+$aqua-l: #0ccae0;
+$blue-d: #145384;
+$aqua-d: #0089ae;
+
+$gradi: linear-gradient(90deg, $blue, $aqua);
+$gradi-l: linear-gradient(90deg, $blue-l, $aqua-l);
+$gradi-d: linear-gradient(90deg, $blue-d, $aqua-d);
+
+$mons: 'Montserrat', sans-serif;
