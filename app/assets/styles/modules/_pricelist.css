@@ -1,14 +1,21 @@
 .pricelist {
     &__section {
-        margin-bottom: 70px;
-        
+        margin-bottom: 40px;
+
+        @mixin atL {
+            margin-bottom: 70px;
+        }
+
         &:last-child {
             margin-bottom: 0;
         }
     }
-    
+
     h3 {
-        font-size: 24px;
-        margin-bottom: 35px;
+
+        @mixin atL {
+            font-size: 24px;
+            margin-bottom: 35px;
+        }
     }
 }

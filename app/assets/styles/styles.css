@@ -4,18 +4,20 @@
 
 @import "../../../node_modules/bootstrap/dist/css/bootstrap-reboot";
 @import "../../../node_modules/bootstrap/dist/css/bootstrap-grid";
+@import "../../../node_modules/bootstrap/dist/css/bootstrap";
 
 @import "base/_variables";
 @import "base/_mixins";
 
 @import "base/_global";
-@import "base/_classes";
 @import "base/_table";
+@import "base/_classes";
 
 @import "modules/_sprite";
 
 @import "modules/_btn";
 @import "modules/_link";
+@import "modules/_headline";
 
 @import "modules/_header";
 @import "modules/_hero";
@@ -26,3 +28,4 @@
 @import "modules/_features";
 @import "modules/_pricelist";
 @import "modules/_contact";
+@import "modules/_reveal-item";

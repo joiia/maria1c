@@ -1,14 +1,31 @@
 .features {
-    padding-bottom: 60px;
     
-    &__item {
-        text-align: center;
-        margin-bottom: 60px;
+    padding-bottom: 15px;
+    
+    @mixin atM {
+        padding-bottom: 35px;
     }
     
+    @mixin atL {
+        padding-bottom: 60px;
+    }
+
+    &__item {
+        text-align: center;
+        margin-bottom: 40px;
+
+        @mixin atL {
+            margin-bottom: 60px;
+        }
+    }
+
     &__item-icon {
         margin: 0 auto;
-        margin-bottom: 25px;
-        height: 64px;
+        margin-bottom: 15px;
+
+        @mixin atL {
+            margin-bottom: 25px;
+            height: 64px;
+        }
     }
 }

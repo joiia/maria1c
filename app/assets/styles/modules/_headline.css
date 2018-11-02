@@ -1,30 +1,18 @@
 .headline {
-    
-    @mixin atS {} 
-    
-    &--centered {
-        text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+
+    @mixin atL {
+        font-size: 36px;
+        margin-bottom: 60px;
     }
-    
-    &--small {
+
+    &--mb-s {
+        margin-bottom: 15px;
+
+        @mixin atL {
+            margin-bottom: 40px;
+        }
     }
-    
-    &--narrow {
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    &--light {
-        font-weight: 100;
-    }
-    
-    &--mrg-b-sm {
-        margin-bottom: .5em;
-    }
-    
-    &--mrg-b-n {
-        margin-top: 0;
-    }
-    
+
 }

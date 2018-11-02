@@ -2,19 +2,30 @@
     text-align: center;
 
     .container {
-        padding: 0 20px;
+        @mixin atXL {
+            padding: 0 20px;
+        }
+
     }
 
     .row {
-        margin: 0 -20px;
+        @mixin atXL {
+            margin: 0 -20px;
+        }
+
     }
 
     .col {
-        padding: 0 10px;
+        @mixin atXL {
+            padding: 0 10px;
+        }
+
     }
 
     h2 {
-        margin-bottom: 70px;
+        @mixin atXL {
+            margin-bottom: 70px;
+        }
     }
 
     &__card {
@@ -22,21 +33,46 @@
         background: #fff;
         border-radius: 8px;
         text-align: center;
-        margin-bottom: 20px;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-        margin: 0 10px;
-        margin-bottom: 50px;
-        height: 487px;
+        margin-bottom: 40px;
+
+        @mixin atM {
+            min-height: 355px;
+        }
+        
+        @mixin atL {
+            min-height: 385px;
+        }
+
+        @mixin atXL {
+            margin: 0 10px 50px;
+            min-height: 470px;
+            margin-bottom: 50px;
+        }
 
         &--l {
-            margin: 0;
-            position: relative;
-            top: -15px;
-            height: 517px;
+
+            @mixin atXL {
+                margin: 0;
+                position: relative;
+                top: -15px;
+                height: 505px;
+            }
+
+            .options__card-title {
+
+                @mixin atXL {
+                    min-height: 140px !important;
+                }
+            }
 
             .options__card-desc {
-                min-height: 205px !important;
+
+                @mixin atXL {
+                    min-height: 200px !important;
+                }
             }
+
         }
 
     }
@@ -45,40 +81,68 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 125px;
-        padding: 35px 35px 10px;
+        padding: 25px 20px 0;
         border-bottom: 1px solid $grey-l;
+
+        @mixin atL {
+            min-height: 105px;
+        }
+        
+        @mixin atXL {
+            min-height: 115px;
+            padding: 30px 30px 5px;
+        }
     }
 
     &__card-desc {
-        padding: 35px 35px;
-        min-height: 190px;
+        padding: 20px 20px;
+
+        @mixin atXL {
+            padding: 30px 30px;
+            min-height: 190px;
+        }
     }
 
     &__card-price {
-        padding: 0 35px;
+        padding: 0 20px;
         font-family: $mons;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500;
+
+        @mixin atXL {
+            padding: 0 30px;
+            font-size: 22px;
+        }
     }
 
     &__card-bottom {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 40px 35px;
+        padding: 25px 20px 20px;
+
+        @mixin atM {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px 30px;
+        }
     }
 
     &__card-button {
         width: 100%;
-        padding: 17px;
+        min-width: 100%;
+
+        @mixin atXL {
+            padding: 17px;
+        }
     }
 
     &__note {
         opacity: .75;
         color: #fff;
+        p {
+            margin-bottom: 0;
+        }
     }
 
 }

@@ -1,24 +1,36 @@
 .page-section {
-    padding: 80px 0 100px;
+    padding: 40px 20px 55px;
     overflow: hidden;
     display: flex;
     align-items: center;
     min-height: 100vh;
-    
+    min-height: calc(100vh - 85px);
+
+    @mixin atM {
+        min-height: inherit;
+        padding: 60px 20px 80px;
+    }
+
+    @mixin atL {
+        min-height: 100vh;
+        min-height: calc(100vh - 85px);
+        padding: 80px 0 100px;
+    }
+
     @mixin atXXXL {
         min-height: 600px;
     }
-    
+
     &--grey {
         background: $grey-ll;
     }
-    
+
     &--blue {
         background: $gradi-d;
-        
+
         h2 {
             color: #fff;
         }
     }
-    
+
 }

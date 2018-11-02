@@ -2,6 +2,12 @@
     float: right;
 } 
 
+.m-float-right {
+    @mixin atM {
+        float: right;
+    }
+}
+
 .icon {
     display: inline-block;
 }
@@ -13,6 +19,13 @@
 .wide {
     letter-spacing: .02em;
     font-size: 1.05em;
+}
+
+.m-wide {
+    @mixin atM {
+        letter-spacing: .02em;
+        font-size: 1.05em;
+    }
 }
 
 .centered {

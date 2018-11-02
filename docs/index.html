@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title></title>
 
-        <link rel="stylesheet" href="assets/styles/styles-3747bd6eea.css"/>
+        <link rel="stylesheet" href="assets/styles/styles-15244c21e4.css"/>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
@@ -15,31 +15,46 @@
     <body>
 
         <header class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8">
-                        <div class="header__nav">
-                            <ul>     
-                                <li><a href="#about">Обо мне</a></li>
-                                <li><a href="">Услуги</a></li>
-                                <li><a href="">Варианты сотрудничества</a></li>
-                                <li><a href="">Преимущества</a></li>
-                                <li><a href="">Прайс-лист</a></li>
-                            </ul>
+
+            <div class="header__menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="header__menu">
+
+                <div class="header__menu-close"></div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12 col-lg-8">
+                            <div class="header__nav">
+                                <ul>     
+                                    <li><a id="about-link" href="#about">Обо мне</a></li>
+                                    <li><a id="services-link" href="#services">Услуги</a></li>
+                                    <li><a id="options-link" href="#options">Варианты сотрудничества</a></li>
+                                    <li><a id="features-link" href="#features">Преимущества</a></li>
+                                    <li><a id="pricelist-link" href="#pricelist">Прайс-лист</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="header__contacts float-right">
-                            <ul>
-                                <li><a href="">Обратная связь</a></li>
-                                <li><a href=""><i class="fab fa-viber"></i></a></li>
-                                <li><a href=""><i class="fab fa-vk"></i></a></li>
-                                <li><a href=""><i class="fab fa-skype"></i></a></li>
-                            </ul>
+                        <div class="col col-12 col-lg-4">
+                            <div class="header__contacts m-float-right">
+                                <ul>
+                                    <li><a id="contact-link" href="#contact">Обратная связь</a></li>
+                                    <li class="header__social-link"><a href=""><i class="fab fa-viber"></i></a></li>
+                                    <li class="header__social-link"><a href=""><i class="fab fa-vk"></i></a></li>
+                                    <li class="header__social-link"><a href=""><i class="fab fa-skype"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="header__menu-bg"></div>
+
         </header>
 
         <main>
@@ -47,8 +62,8 @@
             <div class="page-section hero">
                 <div class="hero__content">
                     <div class="hero__title">
-                        <h1>Все виды <br> <span class="wide">работ по</span><span class="trn">1C</span></h1>
-                        <i class="icon icon--1c"></i>
+                        <h1>Все виды <span class="m-wide">работ по</span><span class="trn">1C</span></h1>
+                        <i class="hero__logo"></i>
                     </div>
                     <div class="hero__desc">от установки обновлений до разработки и техподдержки</div>
                     <a href="#about" class="btn btn--blue hero__btn">Подробнее</a>
@@ -56,15 +71,15 @@
                 <div class="hero__arrow"><a href="#about"><i class="icon icon--arw"></i></a></div>
             </div>
 
-            <div id="about" class="page-section page-section--grey about">
+            <div id="about" class="page-section page-section--grey about" data-matching-link="#about-link">
                 <div class="container-fluid">
                     <div class="row no-gutters">
-                        <div class="col-6">
+                        <div class="col col-12 col-md-6">
                             <div class="about__photo"></div>
                         </div>
-                        <div class="col-6">
+                        <div class="col col-12 col-md-6">
                             <div class="about__content">
-                                <h2 class="headline">Обо мне</h2>
+                                <h2 class="headline headline--mb-s">Обо мне</h2>
                                 <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. 
                                 </p>
                                 <a href="" class="link" data-hover="Мои сертификаты">Мои сертификаты<i></i></a>
@@ -74,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="page-section services">
+            <div id="services" class="page-section services" data-matching-link="#services-link">
                 <div class="container">
                     <h2 class="headline centered">Услуги</h2>
 
@@ -139,35 +154,35 @@
                 </div>
             </div>
 
-            <div class="page-section page-section--blue options">
+            <div id="options" class="page-section page-section--blue options" data-matching-link="#options-link">
                 <div class="container">
                     <h2 class="headline centered">Варианты сотрудничества</h2>
                     <div class="row">
-                        <div class="col col-12 col-md-4">
+                        <div class="col col-12 col-md-4 col-lg-5 offset-lg-1 col-xl-4 offset-xl-0">
                             <div class="options__card">
                                 <div class="options__card-title"><h3>Разовые 
                                     работы</h3></div>
                                 <div class="options__card-desc">Выполнение любых разовых работ, консультаций. Часто не требует составления ТЗ или документации. </div>
                                 <div class="options__card-price">1500 р/час</div>
-                                <div class="options__card-bottom"><a href="" class="btn btn--trn options__card-button"><span>Заказать</span></a></div>
+                                <div class="options__card-bottom"><a href="#contact" class="btn btn--trn options__card-button"><span>Заказать</span></a></div>
                             </div>
                         </div>
-                        <div class="col col-12 col-md-4">
+                        <div class="col col-12 col-md-6 col-lg-5 col-xl-4">
                             <div class="options__card options__card--l">
                                 <div class="options__card-title"><h3>Абонентское 
                                     обслуживание</h3></div>
                                 <div class="options__card-desc">Работы по договору сопровождения по выбранному тарифному плану. Приоритет обслуживания по минимальным ценам!</div>
                                 <div class="options__card-price">от 800 р/час</div>
-                                <div class="options__card-bottom"><a href="" class="btn btn--trn options__card-button"><span>Заказать</span></a></div>
+                                <div class="options__card-bottom"><a href="#contact" class="btn btn--trn options__card-button"><span>Заказать</span></a></div>
                             </div>
                         </div>
-                        <div class="col col-12 col-md-4">
+                        <div class="col col-12 col-md-6 col-xl-4 offset-md-3 col-lg-5 offset-lg-4 offset-xl-0">
                             <div class="options__card">
                                 <div class="options__card-title"><h3>Работы по ТЗ 
                                     или проекту</h3></div>
                                 <div class="options__card-desc">Работы по предварительно согласованному техническому заданию. Стоимость и сроки оцениваются до начала выполнения.</div>
                                 <div class="options__card-price">от 900 р/час</div>
-                                <div class="options__card-bottom"><a href="" class="btn btn--trn options__card-button"><span>Заказать</span></a></div>
+                                <div class="options__card-bottom"><a href="#contact" class="btn btn--trn options__card-button"><span>Заказать</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -175,7 +190,7 @@
                 </div>
             </div>
 
-            <div class="page-section page-section--grey features">
+            <div id="features" class="page-section page-section--grey features" data-matching-link="#features-link">
                 <div class="container">
                     <h2 class="headline centered">Почему стоит работать со мной</h2>
 
@@ -260,7 +275,7 @@
                 </div>
             </div>
 
-            <div class="page-section pricelist">
+            <div id="pricelist" class="page-section pricelist" data-matching-link="#pricelist-link">
                 <div class="container">
                     <h2 class="headline centered">Прайс-лист</h1>
                     <div class="pricelist__section">
@@ -269,78 +284,98 @@
                     </div>
                     <div class="pricelist__section">
                         <h3>Абонентское обслуживание</h3>
-                        <table class="table__4-col">
-                            <tr>
-                                <th></th>
-                                <th>Количество часов</th>
-                                <th>Стоимость</th>
-                                <th>Стоимость часа</th>
-                            </tr>
-                            <tr>
-                                <td>Тариф "Минимальный"</td>
-                                <td>5</td>
-                                <td>2800</td>
-                                <td>1400</td>
-                            </tr>
-                            <tr>
-                                <td>Тариф "Базовый"</td>
-                                <td>10</td>
-                                <td>7000</td>
-                                <td>1200</td>
-                            </tr>
-                            <tr>
-                                <td>Тариф "Стандартный"</td>
-                                <td>20</td>
-                                <td>11000</td>
-                                <td>1100</td>
-                            </tr>
-                            <tr>
-                                <td>Тариф "Расширенный"</td>
-                                <td>20</td>
-                                <td>16000</td>
-                                <td>800</td>
-                            </tr>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table__4-col">
+                                <tr>
+                                    <th></th>
+                                    <th>Количество часов</th>
+                                    <th>Стоимость</th>
+                                    <th>Стоимость часа</th>
+                                </tr>
+                                <tr>
+                                    <td>Тариф "Минимальный"</td>
+                                    <td>5</td>
+                                    <td>2800</td>
+                                    <td>1400</td>
+                                </tr>
+                                <tr>
+                                    <td>Тариф "Базовый"</td>
+                                    <td>10</td>
+                                    <td>7000</td>
+                                    <td>1200</td>
+                                </tr>
+                                <tr>
+                                    <td>Тариф "Стандартный"</td>
+                                    <td>20</td>
+                                    <td>11000</td>
+                                    <td>1100</td>
+                                </tr>
+                                <tr>
+                                    <td>Тариф "Расширенный"</td>
+                                    <td>20</td>
+                                    <td>16000</td>
+                                    <td>800</td>
+                                </tr>
+                            </table>
+                        </div>
                         <p>Абонентское обслуживание предполагает предварительную оплату согласно выбранному тарифу на срок не менее 3 месяцев. Часы могут быть израсходованы только в соответствующем месяце. В часы работ включены любые услуги по 1С: обновление, доработка, консультации и поиск ошибок. Работы выполняются удаленно. При оплате услуг за год действует дополнительная 10% скидка! Возможно так же составление индивидуального тарифного плана!</p>
                     </div>
                     <div class="pricelist__section">
                         <h3>Работы по ТЗ или проекту</h3>
-                        <table class="table__3-col">
-                            <tr>
-                                <th></th>
-                                <th>Количество часов</th>
-                                <th>Стоимость</th>
-                            </tr>
-                            <tr>
-                                <td>Небольшие ТЗ</td>
-                                <td>от 6 до 10</td>
-                                <td>1400</td>
-                            </tr>
-                            <tr>
-                                <td>Средние ТЗ</td>
-                                <td>от 10 до 30</td>
-                                <td>1100</td>
-                            </tr>
-                            <tr>
-                                <td>Крупные ТЗ, проекты</td>
-                                <td>20</td>
-                                <td>900</td>
-                            </tr>
+                        <div class="table-responsive">
+                            <table class="table__3-col">
+                                <tr>
+                                    <th></th>
+                                    <th>Количество часов</th>
+                                    <th>Стоимость</th>
+                                </tr>
+                                <tr>
+                                    <td>Небольшие ТЗ</td>
+                                    <td>от 6 до 10</td>
+                                    <td>1400</td>
+                                </tr>
+                                <tr>
+                                    <td>Средние ТЗ</td>
+                                    <td>от 10 до 30</td>
+                                    <td>1100</td>
+                                </tr>
+                                <tr>
+                                    <td>Крупные ТЗ, проекты</td>
+                                    <td>20</td>
+                                    <td>900</td>
+                                </tr>
 
-                        </table>
+                            </table>
+                        </div>
                         <p>Работы по предварительно согласованному заданию. Требуют подробного описания задач.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="page-section contact">
+            <div id="contact" class="page-section contact" data-matching-link="#contact-link">
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-12 col-md-6">
-                            <h2 class="headline">Обратная связь</h1>
-                            <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. 
+                        <div class="col-12 col-md-5">
+                            <h2 class="headline headline--mb-s">Обратная связь</h1>
+                            <p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. 
                             </p>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <form class="form" action="">
+                                <div class="row">
+                                    <div class="col col-12 col-md-6">                                
+                                        <input type="text" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="col col-12 col-md-6">                                
+                                        <input type="text" placeholder="Телефон">
+                                    </div>
+                                    <div class="col col-12">                                
+                                        <textarea name="" placeholder="Сообщение"></textarea>
+                                        <input type="submit" class="btn btn--blue btn--s m-float-right" value="Отправить">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -353,7 +388,7 @@
         <footer class="footer">
         </footer>
 
-        <script src="assets/scripts/App-d5750ba625.js"></script>
+        <script src="assets/scripts/App-fa0e543678.js"></script>
 
     </body>
 

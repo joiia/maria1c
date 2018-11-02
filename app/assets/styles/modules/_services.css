@@ -1,29 +1,58 @@
 .services {
-    background: url('../../assets/images/icons/1c--l.svg') no-repeat;
-    background-position: left 30px;
-    background-size: cover;
-    padding-bottom: 40px;
-    
+
+    padding-bottom: 15px;
+
+    @mixin atM {
+        padding-bottom: 35px;
+
+    }
+
+    @mixin atL {
+        background: url('../../assets/images/icons/1c--l.svg') no-repeat;
+        background-position: left 30px;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+
     &__item {
         position: relative;
-        padding-left: 50px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+
+        @mixin atL {
+            margin-bottom: 60px;
+            padding-left: 50px;
+        }
     }
-    
+
     &__item-title {
-        height: 56px;
         display: flex;
+        margin-bottom: 15px;
         align-items: center;
-        margin-bottom: 20px;
+        height: 36px;
+
+        @mixin atL {
+            margin-bottom: 20px;
+            height: 56px;
+        }
     }
-    
+
     &__item-icon {
         position: absolute;
         left: 0;
-        top: 10px;
+        top: 2px;
+
+        @mixin atL {
+            top: 10px;
+        }
     }
-    
+
     h3 {
         margin-bottom: 0;
+        padding-left: 50px;
+
+        @mixin atL {
+            padding-left: 0;
+        }
+
     }
 }

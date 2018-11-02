@@ -1,25 +1,54 @@
 .about {
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
+
+    @mixin atL {
+        min-height: 100vh;
+        font-size: 18px;
+    }
+    
+    @mixin atXL {
+        min-height: inherit;
+    }
 
     .container-fluid {
         padding: 0;
     }
 
+    .row {
+        flex-direction: column-reverse;
+
+        @mixin atM {
+            flex-direction: row;
+        }
+    }
+
     &__photo {
         background: url('../../assets/images/about.jpg');
-        height: 100%;
+        height: 300px;
         width: 100%;
         background-size: cover;
+
+        @mixin atM {
+            height: 100%;
+        }
     }
 
     &__content {
-        padding: 70px 120px 80px 55px;
-        min-height: 100vh;
+        padding: 40px 30px 50px;
+
+        @mixin atM {
+            padding: 50px 30px 70px;
+        }
+
+        @mixin atL {
+            padding: 70px 120px 80px 55px;
+            min-height: 100vh;
+        }
 
         @mixin atXXXL {
             min-height: 600px;
         }
     }
-    
+
 }
